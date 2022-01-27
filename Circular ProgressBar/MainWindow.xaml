@@ -48,7 +48,59 @@
                 VerticalAlignment="Center"
                 Style="{StaticResource PlayBtn_Style}" />
         </Grid>
-        
-        
+
+        <Image
+            Width="350"
+            Height="350"
+            Margin="0,60,0,0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            Source="{StaticResource Dial_Image}"
+            Stretch="Uniform" />
+
+        <Grid
+            Width="290"
+            Height="290"
+            Margin="0,90,0,0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top">
+            <Ellipse
+                Width="210"
+                Height="210"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Stroke="#4d4d4d"
+                StrokeThickness="10" />
+            <TextBlock
+                x:Name="timerLabel"
+                Width="100"
+                Height="100"
+                Margin="0,10,0,0"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontFamily="{StaticResource Roboto_Light}"
+                FontSize="50"
+                Foreground="#fef200"
+                Text="0"
+                TextAlignment="Center">
+                <TextBlock.Effect>
+                    <DropShadowEffect
+                        BlurRadius="30"
+                        Direction="-90"
+                        ShadowDepth="2"
+                        Color="#fef200" />
+                </TextBlock.Effect>
+            </TextBlock>
+            <TextBlock
+                Width="210"
+                Height="20"
+                Margin="0,60,0,0"
+                HorizontalAlignment="Center"
+                FontFamily="{StaticResource Rubik_Light}"
+                FontSize="15"
+                Foreground="#ffffff"
+                Text="PERCENT"
+                TextAlignment="Center" />
+        </Grid>
     </Grid>
 </Window>
