@@ -34,12 +34,21 @@
             <Run Foreground="#fef200" Text="PRO" />
         </TextBlock>
 
-        <Grid Height="150" Width="150" VerticalAlignment="Bottom" HorizontalAlignment="Center"
-              Margin="0 0 0 115">
-            <ToggleButton x:Name="startBtn" Height="110" Width="110"
-                          HorizontalAlignment="Center"
-                          VerticalAlignment="Center"
-                          Style="{StaticResource PlayBtn_Style}"/>
+        <Grid
+            Width="150"
+            Height="150"
+            Margin="0,0,0,115"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Bottom">
+            <ToggleButton
+                x:Name="startBtn"
+                Width="110"
+                Height="110"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Style="{StaticResource PlayBtn_Style}" />
         </Grid>
+        
+        
     </Grid>
 </Window>
