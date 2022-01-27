@@ -68,5 +68,22 @@ namespace Circular_ProgressBar
         {
             ((Storyboard)cbp_uc.Resources["ProgressbarAnimation"]).Stop();
         }
+
+        private void startBtn_Checked(object sender, RoutedEventArgs e)
+        {
+            StartTimer();
+            StartAnimation();
+        }
+
+        private void startBtn_Unchecked(object sender, RoutedEventArgs e)
+        {
+            StopTimer();
+            StopAnimation();
+        }
+
+        private void Uncheck_Stop(object sender,RoutedEventArgs e)
+        {
+            startBtn.IsChecked = false;
+        }
     }
 }

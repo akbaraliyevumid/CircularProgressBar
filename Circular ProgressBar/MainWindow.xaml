@@ -46,7 +46,7 @@
                 Height="110"
                 HorizontalAlignment="Center"
                 VerticalAlignment="Center"
-                Style="{StaticResource PlayBtn_Style}" />
+                Style="{StaticResource PlayBtn_Style}" Checked="startBtn_Checked" Unchecked="startBtn_Unchecked" />
         </Grid>
 
         <Image
