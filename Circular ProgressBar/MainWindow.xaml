@@ -102,5 +102,7 @@
                 Text="PERCENT"
                 TextAlignment="Center" />
         </Grid>
+
+        <local:CircularPB_UC x:Name="cbp_uc" Margin="237,235,0,0" />
     </Grid>
 </Window>
