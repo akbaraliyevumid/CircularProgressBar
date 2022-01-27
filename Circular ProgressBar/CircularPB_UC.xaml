@@ -21,5 +21,23 @@
             </BooleanAnimationUsingKeyFrames>
         </Storyboard>
     </UserControl.Resources>
-    <Grid />
+    <Grid>
+        <Canvas>
+            <Path x:Name="progressPath"
+                  Fill="Transparent"
+                  Stroke="#fef200" StrokeThickness="20" StrokeStartLineCap="Flat"
+                  StrokeEndLineCap="Flat" StrokeLineJoin="Round">
+                <Path.Data>
+                    <PathGeometry>
+                        <PathFigure StartPoint="0 -100"
+                                    IsClosed="False">
+                            <LineSegment Point="0 -100"/>
+                            <ArcSegment x:Name="arc" Size="100 100" IsLargeArc="True"
+                                        SweepDirection="Clockwise"/>
+                        </PathFigure>
+                    </PathGeometry>
+                </Path.Data>
+            </Path>
+        </Canvas>
+    </Grid>
 </UserControl>
