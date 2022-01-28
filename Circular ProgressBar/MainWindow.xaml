@@ -46,7 +46,9 @@
                 Height="110"
                 HorizontalAlignment="Center"
                 VerticalAlignment="Center"
-                Style="{StaticResource PlayBtn_Style}" Checked="startBtn_Checked" Unchecked="startBtn_Unchecked" />
+                Checked="startBtn_Checked"
+                Style="{StaticResource PlayBtn_Style}"
+                Unchecked="startBtn_Unchecked" />
         </Grid>
 
         <Image
@@ -103,6 +105,17 @@
                 TextAlignment="Center" />
         </Grid>
 
-        <local:CircularPB_UC x:Name="cbp_uc" Margin="237,235,0,0" />
+        <local:CircularPB_UC
+            x:Name="cbp_uc"
+            Margin="237,235,0,0"
+            Visibility="Collapsed" />
+
+        <Button x:Name="closeBtn"
+                Height="35"
+                Width="35"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Right"
+                Margin="0 20 20 0"
+                Style="{StaticResource PowerBtn_Style}" Click="closeBtn_Click"/>
     </Grid>
 </Window>

@@ -15,8 +15,8 @@ namespace Circular_ProgressBar
             InitializeComponent();
         }
 
-        DispatcherTimer timer = new DispatcherTimer();
-        int counter = 0;
+        private DispatcherTimer timer = new DispatcherTimer();
+        private int counter = 0;
 
         private void timer_Tick(object sender, EventArgs e)
         {
@@ -27,7 +27,6 @@ namespace Circular_ProgressBar
             {
                 timer.Stop();
                 timerLabel.Text = "0".ToString();
-
             }
         }
 
@@ -35,7 +34,7 @@ namespace Circular_ProgressBar
         {
             cbp_uc.Visibility = Visibility.Visible;
 
-            if (counter>0)
+            if (counter > 0)
             {
                 timer.Tick -= timer_Tick;
                 counter = 0;
@@ -48,7 +47,7 @@ namespace Circular_ProgressBar
 
         private void StopTimer()
         {
-            if (counter>0)
+            if (counter > 0)
             {
                 timer.Tick -= timer_Tick;
                 counter = 0;
@@ -81,9 +80,14 @@ namespace Circular_ProgressBar
             StopAnimation();
         }
 
-        private void Uncheck_Stop(object sender,RoutedEventArgs e)
+        private void Uncheck_Stop(object sender, RoutedEventArgs e)
         {
             startBtn.IsChecked = false;
+        }
+
+        private void closeBtn_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }
