@@ -9,7 +9,10 @@
     mc:Ignorable="d">
 
     <UserControl.Resources>
-        <Storyboard x:Key="ProgressBarAnimation" TargetName="arc" Completed="Storyboard_Completed">
+        <Storyboard
+            x:Key="ProgressBarAnimation"
+            Completed="Storyboard_Completed"
+            TargetName="arc">
             <PointAnimationUsingPath Storyboard.TargetProperty="Point" Duration="0:0:20">
                 <PointAnimationUsingPath.PathGeometry>
                     <PathGeometry Figures="M 0 -100 A 100 100 0 0 1 0 100                                                     A 100 100 0 0 1 0 -100" />
@@ -26,7 +29,7 @@
             <Path
                 x:Name="progressPath"
                 Fill="Transparent"
-                Stroke="#fef200"
+                Stroke="#e29578"
                 StrokeEndLineCap="Flat"
                 StrokeLineJoin="Round"
                 StrokeStartLineCap="Flat"
@@ -48,7 +51,7 @@
                         BlurRadius="50"
                         Direction="-90"
                         ShadowDepth="2"
-                        Color="#fef200" />
+                        Color="#e29578" />
                 </Path.Effect>
             </Path>
         </Canvas>

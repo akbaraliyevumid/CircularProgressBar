@@ -140,7 +140,7 @@
         <DrawingGroup Opacity="1">
             <DrawingGroup Opacity="1">
                 <GeometryDrawing Brush="#FFFFFFFF" Geometry="{StaticResource PlayGeometry1}" />
-                <GeometryDrawing Brush="#FF37ABD2" Geometry="{StaticResource PlayGeometry2}" />
+                <GeometryDrawing Brush="#2c7da0" Geometry="{StaticResource PlayGeometry2}" />
             </DrawingGroup>
         </DrawingGroup>
     </DrawingGroup>
@@ -154,7 +154,7 @@
     <DrawingGroup x:Key="Play_MODrawingGroup" ClipGeometry="M0,0 V27795 H27795 V0 H0 Z">
         <DrawingGroup Opacity="1">
             <DrawingGroup Opacity="1">
-                <GeometryDrawing Brush="#FF37ABD2" Geometry="{StaticResource Play_MOGeometry1}" />
+                <GeometryDrawing Brush="#2c7da0" Geometry="{StaticResource Play_MOGeometry1}" />
                 <GeometryDrawing Brush="#FFFFFFFF" Geometry="{StaticResource Play_MOGeometry2}" />
             </DrawingGroup>
         </DrawingGroup>
@@ -170,7 +170,7 @@
         <DrawingGroup Opacity="1">
             <DrawingGroup Opacity="1">
                 <GeometryDrawing Brush="#FFFFFFFF" Geometry="{StaticResource Stop_DefGeometry1}" />
-                <GeometryDrawing Brush="#FF37ABD2" Geometry="{StaticResource Stop_DefGeometry2}" />
+                <GeometryDrawing Brush="#2c7da0" Geometry="{StaticResource Stop_DefGeometry2}" />
             </DrawingGroup>
         </DrawingGroup>
     </DrawingGroup>
@@ -184,7 +184,7 @@
     <DrawingGroup x:Key="Stop_MoDrawingGroup" ClipGeometry="M0,0 V11639 H11639 V0 H0 Z">
         <DrawingGroup Opacity="1">
             <DrawingGroup Opacity="1">
-                <GeometryDrawing Brush="#FF37ABD2" Geometry="{StaticResource Stop_MoGeometry1}" />
+                <GeometryDrawing Brush="#2c7da0" Geometry="{StaticResource Stop_MoGeometry1}" />
                 <GeometryDrawing Brush="#FFFFFFFF" Geometry="{StaticResource Stop_MoGeometry2}" />
             </DrawingGroup>
         </DrawingGroup>

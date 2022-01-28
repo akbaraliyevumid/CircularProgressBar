@@ -30,8 +30,8 @@
             VerticalAlignment="Bottom"
             FontFamily="{StaticResource Roboto_Medium}"
             FontSize="28">
-            <Run Foreground="#ffffff" Text="C# DESIGN" />
-            <Run Foreground="#fef200" Text="PRO" />
+            <Run Foreground="#ffffff" Text="CIRCULAR PROGRESS" />
+            <Run Foreground="#e29578" Text="BAR" />
         </TextBlock>
 
         <Grid
@@ -82,7 +82,7 @@
                 VerticalAlignment="Center"
                 FontFamily="{StaticResource Roboto_Light}"
                 FontSize="50"
-                Foreground="#fef200"
+                Foreground="#e29578"
                 Text="0"
                 TextAlignment="Center">
                 <TextBlock.Effect>
@@ -90,7 +90,7 @@
                         BlurRadius="30"
                         Direction="-90"
                         ShadowDepth="2"
-                        Color="#fef200" />
+                        Color="#e29578" />
                 </TextBlock.Effect>
             </TextBlock>
             <TextBlock
