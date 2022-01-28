@@ -30,8 +30,8 @@
             VerticalAlignment="Bottom"
             FontFamily="{StaticResource Roboto_Medium}"
             FontSize="28">
-            <Run Foreground="#ffffff" Text="CIRCULAR PROGRESS" />
-            <Run Foreground="#e29578" Text="BAR" />
+            <Run Foreground="#ffffff" Text="CIRCULAR" />
+            <Run Foreground="#e29578" Text="PROGRESSBAR" />
         </TextBlock>
 
         <Grid
